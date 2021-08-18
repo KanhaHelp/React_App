@@ -1,14 +1,19 @@
 // import logo from './logo.svg';
 import './App.css';
 import './style.css';
+// let name = true;
 
 function App() {
   return (
     <>
-      <div className="App">
-        <div className="container"></div>
-          <h3> hi </h3>
-          <p>kanha</p>
+
+      <div className="container">
+        <h3> hi </h3>
+        <nav>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </nav>
       </div>
 
 
